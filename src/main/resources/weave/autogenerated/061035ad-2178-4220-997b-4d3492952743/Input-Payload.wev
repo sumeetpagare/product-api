@@ -1,0 +1,4 @@
+%dw 2.0
+
+type auto_061035ad_2178_4220_997b_4d3492952743_Input_Payload = Array<{|  sku?: String,   name?: String,   description?: String,   image_url?: String,   active?: Boolean,   units_in_stock?: Number,   unit_price?: Number,   category_id: Number,   date_created?: Date,   id: Number,   category_name?: String|}>
+
