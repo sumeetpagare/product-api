@@ -123,8 +123,9 @@
 				    <cloudHubDeployment>
 				      <uri>https://anypoint.mulesoft.com</uri>
 				      <muleVersion>4.4.0</muleVersion>
-				      <username>sumeet_t1</username>
-				      <password>Hexaware123#</password>
+				      <!-- Define credentials in C:\Users\<user folder>\.m2\settings.xml -->
+				      <username>${username}</username>
+				      <password>${Hexaware123#}</password>
 				      <objectStoreV2>true</objectStoreV2>
 					  <!-- commented out properties are specific to environment and they are defined in <profiles> above-->
 					  <!--  						  	
