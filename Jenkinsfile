@@ -11,7 +11,7 @@ pipeline {
 
     stage('Test') {
       steps {
-          echo ***** MUnit Test cases execution *****
+          echo "***** MUnit Test cases execution *****"
       }
     }
 
