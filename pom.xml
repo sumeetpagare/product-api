@@ -125,7 +125,7 @@
 				      <muleVersion>4.4.0</muleVersion>
 				      <!-- Define credentials in C:\Users\<user folder>\.m2\settings.xml -->
 				      <username>${username}</username>
-				      <password>${Hexaware123#}</password>
+				      <password>${password}</password>
 				      <objectStoreV2>true</objectStoreV2>
 					  <!-- commented out properties are specific to environment and they are defined in <profiles> above-->
 					  <!--  						  	
